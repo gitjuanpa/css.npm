@@ -1,0 +1,652 @@
+.banner{
+    position: absolute;
+    top: -10px ;
+    bottom: 10px;
+    height: 10px;
+    left: -20px;
+    right: -20px;
+    background: linear-gradient(to right, orange,red,#ff00ff);
+}
+.contenedor {
+    position: relative;
+    border: 1px black;
+    border-width: 1px;
+    border-style: solid;
+    border-top-style: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0,0,0,.1);
+    font-family: 'Poppins';
+    color: #000;
+    letter-spacing: 0.015625em;
+    font-size: 1.1rem;
+
+}
+span{
+    position: relative;
+    color: black;
+    left: 5%;
+    top: 0px;
+    transition: opacity .15s ease-in;
+    opacity: 1;
+    font-family: 'Poppins';
+    cursor: pointer;
+    font-size: 20px;
+}
+nav{
+    position: relative;
+    display: inline-flex;
+    left: 50%;
+    right: 50%;
+    font-family: 'Poppins';
+    cursor: pointer;
+    font-size: 20px;
+}
+li{
+    display: inline-flex;
+    margin-left: 5px;
+  }
+div.segundacaja{
+    position: absolute;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    left: 0%;
+    cursor: pointer;
+}
+.segundacaja img{
+    position: relative;
+    padding: 18px;
+    width: 80px;
+    left:5% ;
+    height: 25px;
+    cursor: pointer;
+}
+form{
+    position: relative;
+    display: inline-flex;
+    left: 10%;
+    bottom: 0%;
+    cursor: pointer;
+}
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    }
+input[type="text"]{
+    background: whitesmoke;
+    border: 8px solid #f2f2f2;
+    height: auto;
+    padding-left: 60%;
+    font-size: 30px;
+    }
+svg{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    }
+input[type="submit"]{
+    background-color: #231f20;
+    font-family: 'Poppins';
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 20px;
+}
+.terceracaja{
+    position: absolute;
+    right: -90%;
+    top: 15px;
+    font-size: 1.3rem;
+    }    
+.Sing1{
+    padding: 15px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    left: 15px;
+   }
+a{
+    color: black;
+    text-decoration: none;
+}
+.final{
+     position: relative;
+    background-color: #f9f9f9;
+    border-color: rgba(0,0,0,.1);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-sizing: border-box;
+    border-top-style: solid;
+    border-top-width: 1px;
+    top: 100px;
+    font-size: 3rem;
+    padding-left: 100px;
+    }
+.final h1{
+    font-size:1.2rem;
+    padding-left: -50%;
+    padding-right: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contador a{
+    position: relative;
+    color: #666;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin: 0 3px;
+    background-color: white;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 5px;
+    top: 50px;
+    left: 70%;
+    }
+.aside{
+    position: relative;
+    top: 70px;
+    font-size: 10px;
+    left: 100px;
+    }
+.aside a{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    padding-top: 18px;
+    width: 15%;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .7);
+    }
+.optimal{
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 5px;
+    }
+.popularity{
+    border-bottom: 1px solid #29ABE2;
+    padding-bottom: 5px;
+    }
+.quality{
+    border-bottom: 1px solid #8956FF;
+    padding-bottom: 5px;
+
+    }
+.maintenance{
+    border-bottom: 1px solid #cb3837;
+    padding-bottom: 5px;
+}
+div h3{
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    bottom: 120px;
+    padding-left: 0px;
+ }
+ .exact{
+    background-color: #efe7fc;
+    transition: all .15s ease-in;
+    margin-left: 40px;
+    letter-spacing: 0.4px;
+    font-size: .875rem;
+    top: -125px;
+    padding: 5px;
+}
+ .html{
+    position: relative;
+    left: 25%;
+    top: -140px;
+    color: rgba(0,0,0,.6);
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    word-spacing: -4px;
+}
+.bodyul{
+    position: relative;
+    left: 21.5%;
+    top: -140px;
+    font-size: .975rem;
+    letter-spacing: 1.4px;
+    padding-left: -10px;
+}
+.angular1{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.framework{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.browser{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.client-side{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.autologo img{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    border-radius: 4%;
+    left: 25%;
+    top: -140px;
+}
+.petebacondarwin{
+    position: relative;
+    left: 27.5%;
+    top: -165px;
+    color: rgba(0,0,0,.7);
+    font-size: 17px;
+    font-weight: 550;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+}
+.published{
+    position: relative;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    color: rgba(0,0,0,.4);
+    top: -165px;
+    left: 28%;
+    font-size: 17px;
+}
+.columnm{
+    position: relative;
+    border-width: 10px;
+    top: -192px ;
+    left: -96px;
+    border-bottom: 2px solid red;
+    padding-bottom: -30px;
+    width: 3%;
+    float: right;
+}
+.m{
+    float: right;
+    position: relative;
+    top: -200px;
+    left: -108px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnq{
+    position: relative;
+    top: -208px ;
+    left: -5px;
+    border-bottom: 2px solid #8956FF;
+    padding-bottom: -30px;
+    width: 6%;
+    float: right;
+}
+.q{
+    float: right;
+    position: relative;
+    top: -217px;
+    left: -17px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnp{
+    position: relative;
+    top: -225px ;
+    left: 55px;
+    border-bottom: 2px solid #29ABE2;
+    width: 4%;
+    float: right;
+}
+.p{
+    float: right;
+    position: relative;
+    top: -235px;
+    left: 44px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.border_body{
+    position: relative;
+    top: -140px ;
+    left: 160px;
+    border-bottom: 1px solid rgba(0,0,0,.1);;
+    width: 73%;
+    float: right;
+}
+/*CUERPO2*/
+div h3{
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    bottom: 120px;
+    padding-left: 0px;
+ }
+ .exact2{
+    background-color: #efe7fc;
+    transition: all .15s ease-in;
+    margin-left: 40px;
+    letter-spacing: 0.4px;
+    font-size: .875rem;
+    top: -125px;
+    padding: 5px;
+}
+ .html2 {
+    position: relative;
+    left: 25%;
+    top: -140px;
+    color: rgba(0,0,0,.6);
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    word-spacing: -4px;
+}
+.bodyul_2{
+    position: relative;
+    left: 21.5%;
+    top: -140px;
+    font-size: .975rem;
+    letter-spacing: 1.4px;
+    padding-left: -10px;
+}
+.angular2{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.material{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.material_design{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.components{
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+    padding: 2px;
+}
+.autologo2 img{
+    position: relative;
+    width: 20px;
+    height: 22px;
+    min-width: 22px;
+    border-radius: 4%;
+    left: 25%;
+    top: -140px;
+}
+.google-wombot{
+    position: relative;
+    left: 27.5%;
+    top: -165px;
+    color: rgba(0,0,0,.7);
+    font-size: 17px;
+    font-weight: 550;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+}
+.published{
+    position: relative;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    color: rgba(0,0,0,.4);
+    top: -165px;
+    left: 28%;
+    font-size: 17px;
+}
+.columnm{
+    position: relative;
+    border-width: 10px;
+    top: -192px ;
+    left: -96px;
+    border-bottom: 2px solid red;
+    padding-bottom: -30px;
+    width: 3%;
+    float: right;
+}
+.m{
+    float: right;
+    position: relative;
+    top: -200px;
+    left: -108px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnq{
+    position: relative;
+    top: -208px ;
+    left: -5px;
+    border-bottom: 2px solid #8956FF;
+    padding-bottom: -30px;
+    width: 6%;
+    float: right;
+}
+.q{
+    float: right;
+    position: relative;
+    top: -217px;
+    left: -17px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnp{
+    position: relative;
+    top: -225px ;
+    left: 55px;
+    border-bottom: 2px solid #29ABE2;
+    width: 4%;
+    float: right;
+}
+.p{
+    float: right;
+    position: relative;
+    top: -235px;
+    left: 44px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.border_body{
+    position: relative;
+    top: -140px ;
+    left: 160px;
+    border-bottom: 1px solid rgba(0,0,0,.1);;
+    width: 73%;
+    float: right;
+}
+.columnm3{
+    position: relative;
+    border-width: 10px;
+    top: -192px ;
+    left: -96px;
+    border-bottom: 2px solid red;
+    padding-bottom: -30px;
+    width: 3%;
+    float: right;
+}
+.m3{
+    float: right;
+    position: relative;
+    top: -200px;
+    left: -108px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnq3{
+    position: relative;
+    top: -208px ;
+    left: -45px;
+    border-bottom: 2px solid #8956FF;
+    padding-bottom: -30px;
+    width: 3%;
+    float: right;
+}
+.q3{
+    float: right;
+    position: relative;
+    top: -217px;
+    left: -57px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnp3{
+    position: relative;
+    top: -225px ;
+    left: 42px;
+    border-bottom: 2px solid #29ABE2;
+    width: 6%;
+    float: right;
+}
+.p3{
+    float: right;
+    position: relative;
+    top: -235px;
+    left: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.border_body3{
+    position: relative;
+    top: -140px ;
+    left: 160px;
+    border-bottom: 1px solid rgba(0,0,0,.1);;
+    width: 73%;
+    float: right;
+}
+.columnm5{
+    position: relative;
+    border-width: 10px;
+    top: -192px ;
+    left: -104px;
+    border-bottom: 2px solid red;
+    padding-bottom: -30px;
+    width: 2%;
+    float: right;
+}
+.m5{
+    float: right;
+    position: relative;
+    top: -200px;
+    left: -112px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnq5{
+    position: relative;
+    top: -208px ;
+    left: 26px;
+    border-bottom: 2px solid #8956FF;
+    padding-bottom: -30px;
+    width: 9%;
+    float: right;
+}
+.q5{
+    float: right;
+    position: relative;
+    top: -217px;
+    left: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.columnp5{
+    position: relative;
+    top: -225px ;
+    left: 60px;
+    border-bottom: 2px solid #29ABE2;
+    width: 2%;
+    float: right;
+}
+.p5{
+    float: right;
+    position: relative;
+    top: -235px;
+    left: 49px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.border_body5{
+    position: relative;
+    top: -140px ;
+    left: 160px;
+    border-bottom: 1px solid rgba(0,0,0,.1);;
+    width: 73%;
+    float: right;
+}
+.contador_2 a{
+    position: relative;
+    color: #666;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin: 0 3px;
+    background-color:white;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 5px;
+    top: -100px;
+    left: 24%;
+    float: left;
+}
+.border_contador{
+    position: relative;
+    top: -90px ;
+    left: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);;
+    width: 100%;
+    float: right;
+}
+footer {
+    position: absolute;
+    width:100% ;
+    padding: 40px 0px;
+    margin-top: -200px;
+    font-family: 'Quicksand', sans-serif;
+  right: 100px;
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 80px;
+
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box_footer .logo img{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.box_footer a {
+    margin-top: 20px;
+    color: black;
+    font-weight: 200;
+    text-decoration:none;
+    color: rgba(0, 0, 0, .7);
+    font-family: 'Quicksand', sans-serif;
+}
+.banner_down{
+    position: relative;
+    top: 300px;
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, orange,red,#ff00ff);
+}
+
+.new_angular{
+    position: absolute;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    font-size: 19px;
+    outline: unset;
+    top: 118px;
+    left: 240px;
+    
+    
+}
